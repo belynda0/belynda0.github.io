@@ -1,8 +1,10 @@
 /* Background and Text Colors */
 body {
+  margin: 0;
   background-color: #F2C3A7;
   color: #401A17;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
 }
 
 /* Sidebar styling */
