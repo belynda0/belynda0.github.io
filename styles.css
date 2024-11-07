@@ -50,3 +50,49 @@
 
     <div style="height: 150px;"></div> 
     <section id
+
+
+/* Background and Text Colors */
+body {
+  background-color: #F2C3A7;
+  color: #401A17;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: #F2C3A7;
+  padding: 20px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/* Sidebar links and icons */
+.sidebar-link, .icon-link {
+  color: #401A17;
+  text-decoration: none;
+  display: block;
+  margin: 15px 0;
+}
+
+.sidebar-link:hover, .icon-link:hover {
+  color: #C75B39; /* Optional hover color */
+}
+
+/* Main content styling */
+.content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, p, a {
+  color: #401A17;
+}
+
+/* Adjust iframe border styling */
+iframe {
+  border: none;
+}
+
+
