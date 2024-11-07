@@ -23,6 +23,10 @@ body {
   margin: 15px 0;
 }
 
+.sidebaar img {
+  max-width: 200px;
+}
+
 .sidebar-link:hover, .icon-link:hover {
   color: #C75B39; /* Optional hover color */
 }
