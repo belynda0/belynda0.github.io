@@ -1,116 +1,52 @@
-/* General Styles */
-body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #fcf9f1;
-  display: flex;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belynda Herrera's Website</title>
 
-/* Sidebar Styles */
-.sidebar {
-  background-color: #097969;
-  width: 250px;
-  position: fixed;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidebar">
+    <img src="avatar.jpeg" alt="Avatar" class="avatar">
+    <h1 class="name">BELYNDA HERRERA</h1>
+    <nav class="sidebar-nav">
+      <a href="#about" class="sidebar-link">ABOUT</a>
+      <a href="#research" class="sidebar-link">RESEARCH</a>
+      <a href="#teaching" class="sidebar-link">TEACHING</a>
+      <a href="#projects" class="sidebar-link">PROJECTS</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://github.com/catarinaroman" target="_blank" class="icon-link">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/belyndaherrera/" target="_blank" class="icon-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=ABrl8i4AAAAJ&hl=en&authuser=1" target="_blank" class="icon-link">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+      <a href="mailto:Bpherrera@ucsd.edu" class="icon-link">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
 
-.avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
+  <div class="content">
+    <div style="height: 300px;"></div> 
+    <section id="about">
+      <h2>ABOUT</h2>
+      <p>I am Belynda, a Computational Social Science master’s student at UC San Diego.</p>
+      <p>I am a data-driven researcher focused on the intersection of data, social science, and policy. My work spans **algorithmic fairness**, **crime policy**, and the **impact of trade on pollution**. Currently, I am collaborating with Alliance for HOPE International on the **Hidden Homicides Project** to address domestic violence and homicide cases. Motivated by social justice, I aim to drive progressive policy through critical, evidence-based research.</p>
+      
+      <h3>CV</h3>
+      <iframe src="https://drive.google.com/file/d/11ZKCK1Cylh9d8dLtB92l8ETIlLFT-SP1/preview" width="640" height="480" allow="autoplay"></iframe>
+    </section>
 
-/* Name Styles */
-.name {
-  color: #90bfc5;
-  font-weight: 300;
-  margin-bottom: 40px;
-  align-self: flex-start; /* Align to the left of the sidebar */
-  margin-left: 40px; /* Shift to the right */
-}
-
-/* Navigation Links */
-.sidebar-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.sidebar-link {
-  color: #fcf9f1;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.sidebar-link.active {
-  font-weight: bold;
-}
-
-/* Social Icons Styles */
-.social-icons {
-  margin-top: 20px; /* Add some space below the section menu */
-  display: flex;
-  gap: 15px; /* Space between icons */
-  justify-content: center;
-}
-
-.icon-link {
-  color: #90bfc5;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.icon-link:hover {
-  color: #6e9296;
-}
-
-/* Content Styles */
-.content {
-  margin-left: 250px;
-  padding: 20px;
-}
-
-h2 {
-  color: #097969;
-  font-size: 3em;
-  font-weight: 400;
-}
-
-h3 {
-  color: #6e9296;
-  font-size: 2em;
-  font-weight: 400;
-}
-
-h4 {
-  color: #eac866;
-  font-size: 18px; /* Same size as the body text */
-  font-weight: 600; /* Higher weight for emphasis */
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-p {
-  font-weight: 200;
-  font-size: 18px;
-  color: #000;
-  line-height: 1.6;
-}
-
-/* Link Styling */
-a {
-  text-decoration: none; /* No underline by default */
-  color: inherit; /* Inherit the color of the surrounding text */
-  transition: text-decoration 0.3s ease; /* Smooth transition for underline */
-}
-
-a:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
+    <div style="height: 150px;"></div> 
+    <section id
