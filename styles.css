@@ -8,12 +8,13 @@ body {
 /* Sidebar styling */
 .sidebar {
   background-color: #401A17;
-  padding-top: 20px;
-  width: 250px;
+  width: 225px;
   position: fixed;
   height: 100vh;
-  align-items: center;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
 }
 
 /* Profile image styling */
