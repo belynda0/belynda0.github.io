@@ -54,3 +54,25 @@ h1, h2, h3, h4, p, a {
 iframe {
   border: none;
 }
+.notion-embed {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 2em auto;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notion-embed iframe {
+  width: 100%;
+  min-height: 500px;
+  border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .notion-embed iframe {
+    min-height: 400px;
+  }
+}
