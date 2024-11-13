@@ -13,17 +13,17 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #401A17;
     text-align: center;
 }
 
 h2 {
-    font-size: 3em; /* 3x the body text */
+    font-size: 2em; /* 3x the body text */
 }
 
 h3 {
-    font-size: 2em; /* 2x the body text */
+    font-size: 1.5em; /* 2x the body text */
     font-weight: 400;
     color: #401A17;
 }
